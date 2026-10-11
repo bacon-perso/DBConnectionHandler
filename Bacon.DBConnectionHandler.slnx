@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+  </Folder>
+  <Project Path="Bacon.DBConnectionHandler.Mssql/Bacon.DBConnectionHandler.Mssql.csproj" Id="2742773f-823c-4ff7-b494-11db72eb2b0f" />
+  <Project Path="Bacon.DBConnectionHandler.Mysql/Bacon.DBConnectionHandler.Mysql.csproj" Id="de92621a-ec2c-4c81-8fe0-c3655868a03a" />
+  <Project Path="Bacon.DBConnectionHandler.Postgres/Bacon.DBConnectionHandler.Postgres.csproj" Id="d6ad2b75-c193-4abc-90cc-51daefefb14c" />
+  <Project Path="Bacon.DBConnectionHandler.Samples/Bacon.DBConnectionHandler.Samples.csproj" Id="85d110da-8863-4603-8075-c19f544b403f" />
+  <Project Path="Bacon.DBConnectionHandler.Sqlite/Bacon.DBConnectionHandler.Sqlite.csproj" Id="227f7434-d7c8-4e21-ac9a-c26068fb39d5" />
+  <Project Path="Bacon.DBConnectionHandler.Tests/Bacon.DBConnectionHandler.Tests.csproj" Id="f9272f52-23b1-457d-8b8d-c59d538b2729" />
+  <Project Path="Bacon.DBConnectionHandler/Bacon.DBConnectionHandler.csproj" />
+</Solution>

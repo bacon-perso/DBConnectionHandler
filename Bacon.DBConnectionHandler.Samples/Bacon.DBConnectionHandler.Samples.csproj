@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <UserSecretsId>debff9ad-cf69-48e4-b703-23f2a3cc8e18</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+    <PackageReference Include="StackExchange.Redis" Version="3.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bacon.DBConnectionHandler.Mssql\Bacon.DBConnectionHandler.Mssql.csproj" />
+    <ProjectReference Include="..\Bacon.DBConnectionHandler.Mysql\Bacon.DBConnectionHandler.Mysql.csproj" />
+    <ProjectReference Include="..\Bacon.DBConnectionHandler.Postgres\Bacon.DBConnectionHandler.Postgres.csproj" />
+    <ProjectReference Include="..\Bacon.DBConnectionHandler.Sqlite\Bacon.DBConnectionHandler.Sqlite.csproj" />
+    <ProjectReference Include="..\Bacon.DBConnectionHandler\Bacon.DBConnectionHandler.csproj" />
+  </ItemGroup>
+
+</Project>
